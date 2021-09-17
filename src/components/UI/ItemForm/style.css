@@ -1,0 +1,122 @@
+.productItem {
+    display        : flex;
+    border-bottom  : 1px solid;
+    padding        : 30px 10px;
+    justify-content: space-between;
+    position       : relative;
+}
+
+
+.productItem__image img {
+    width : 100px;
+    height: 100px;
+    border: 1px solid #d0cece;
+}
+
+
+.productItem__info {
+    display        : flex;
+    flex           : 3;
+    justify-content: space-between;
+}
+
+.productItem__quantity {
+    width           : 80px;
+    display         : flex;
+    justify-content : space-between;
+    border          : 1px solid;
+    height          : 25px;
+    align-items     : center;
+    background-color: white;
+    margin-right    : 50px;
+}
+
+.productItem__quantity span {
+    font-size: 1.3rem;
+}
+
+
+.productItem__name {
+    margin-bottom: 15px;
+}
+
+.productItem__image {
+    flex: 1;
+}
+
+.productItem__total {
+    flex           : 1;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : flex-start;
+}
+
+
+.productItem__total span {
+    display    : block;
+    font-size  : 1.5rem;
+    font-weight: 100;
+}
+
+button.productItem-close {
+    border    : none;
+    background: none;
+    outline   : none;
+    cursor    : pointer;
+    position  : absolute;
+    top       : 23px;
+    right     : 0px;
+
+}
+
+
+.cartMini>.productItem__info {
+    display    : inline;
+    margin-left: 10px;
+}
+
+.cartMini>.productItem__info .productItem__quantity {
+    margin-top: 50px;
+}
+
+.cartMini>.productItem__total {
+    flex-direction: column-reverse;
+}
+
+.cartMini>button.productItem-close {
+    position: unset;
+}
+
+
+
+
+
+/* mobile-tablet */
+@media (max-width:1023px) {}
+
+/* tablet */
+
+@media (min-width:740px) and (max-width:1023px) {}
+
+/* mobile */
+
+@media (max-width:739px) {
+
+    .productItem__info {
+        display    : inline;
+        margin-left: 10px;
+    }
+
+    .productItem__quantity {
+        margin-top: 50px;
+    }
+
+    .productItem__total {
+        flex-direction: column-reverse;
+    }
+
+    button.productItem-close {
+        position: unset;
+    }
+
+}

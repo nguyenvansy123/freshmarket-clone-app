@@ -1,0 +1,139 @@
+.detail__container{
+    background-color: white;
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 10% 8%;
+}
+
+.detail__nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__breadcrumbs {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: gray;
+}
+
+.nav__breadcrumbs a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav__pagination {
+    font-size: 1.3rem;
+}
+
+.nav__pagination a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.nav__pagination a:last-child{  
+    border-left: 1px solid;   
+    padding: 0 3px;
+}
+.detail__img{
+    width: 100%;
+}
+
+.description {font-size: 1.5rem;font-weight: 300;line-height: normal;}
+
+span.sku {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.product-price {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+span.formatted-secondary-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 10px;
+}
+
+.product-options-inputs {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+label.number-input-spinner-title {font-weight: 300;}
+
+input#number-input-spinner-container {
+    width: 15%;
+    height: 40px;
+    padding-left: 5px;
+}
+
+button.detail__add{
+    width: 100%;
+    height: 40px;
+    font-size: 1.5rem;
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.detail__by {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 4.2rem;
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.detail__info {
+    margin-top: 10px;
+}
+
+ul.collapse-info-section {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.collapse-info-section li{
+    border-bottom:1px solid
+}
+
+ul.collapse-info-section li button {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 5px;
+    background: none;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+}
+
+h3.info-section-title {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.content__box.hiden{
+    display: none;
+}
+
+.content__box p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-left: 5px;
+}

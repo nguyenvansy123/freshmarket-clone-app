@@ -1,0 +1,23 @@
+:root{
+  --primary-color:#2a6049;
+  --background-color:#fbf9f1;
+}
+
+*{
+  box-sizing: inherit;
+}
+html{
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #fbf9f1;
+  overflow-x: hidden;
+}
+
+.app{
+  overflow: hidden;
+}

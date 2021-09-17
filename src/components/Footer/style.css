@@ -1,0 +1,148 @@
+footer.footer {
+    padding: 0 110px;
+}
+
+.footer__wrapper {
+    width           : 100%;
+    background-color: var(--primary-color);
+    padding         : 50px 73px;
+    font-size       : 1.4rem;
+    display         : flex;
+    flex-direction  : column;
+}
+
+.footer__content {
+    width       : 100%;
+    display     : flex;
+    color       : white;
+    /* padding-left: 5%; */
+}
+
+ul.footer__list {
+    padding-left: 0;
+    list-style  : none;
+    font-weight : 300;
+}
+
+.footer__heading {
+    display: block;
+}
+
+.footer__link {
+    text-decoration: none;
+    display        : block;
+    color          : white;
+}
+
+.footer__btn {
+    width     : 90%;
+    height    : 30px;
+    border    : 1px solid white;
+    background: white;
+    outline   : none;
+    margin-top: 7px;
+    cursor    : pointer;
+    transition: 0.4s;
+}
+
+.footer__btn:hover {
+    background-color: unset;
+    color           : white;
+}
+
+.footer__input-email {
+    width           : 90%;
+    height          : 30px;
+    border          : 1px solid white;
+    background-color: var(--primary-color);
+    outline         : 1px solid white;
+    color           : white;
+}
+
+.footer__text {
+    display  : flex;
+    color    : white;
+    font-size: 1.3rem;
+}
+
+.text__new {
+    padding-left: 8%;
+}
+
+.text__new a {
+    text-decoration: none;
+    color          : white;
+}
+
+ul.list__icon {
+    display        : flex;
+    list-style     : none;
+    margin         : 0;
+    justify-content: flex-end;
+    padding-right  : 6%;
+}
+
+ul.list__icon li {
+    padding  : 0 10px;
+    font-size: 2rem;
+}
+
+ul.list__icon li a {
+    text-decoration: none;
+    display        : inline-block;
+    color          : white;
+}
+
+
+/* mobile-tablet */
+@media (max-width:1023px) {}
+
+/* tablet */
+
+@media (min-width:740px) and (max-width:1023px) {
+
+ 
+
+    /* footer */
+
+    .text__new a {
+        padding-left: 8%;
+    }
+
+
+}
+
+/* mobile */
+
+@media (max-width:739px) {
+
+    /* footer */
+    .footer.footer {
+        padding: 0px;
+    }
+
+    .footer__content {
+        display     : unset;
+        text-align  : center;
+        padding-left: 0;
+    }
+
+    .footer__email {
+        display: block;
+    }
+
+    .footer__text {
+        margin-top    : 20px;
+        flex-direction: column-reverse;
+        text-align    : center;
+    }
+
+    ul.list__icon {
+        padding        : 0;
+        justify-content: center;
+    }
+
+    
+
+
+}

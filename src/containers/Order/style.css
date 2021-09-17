@@ -1,0 +1,41 @@
+.order__wrapper{
+    width: 100%;
+    padding: 0 20px;    
+}
+
+.order__title{
+
+}
+
+.order__items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.order__item__container{
+    width: 100%;    
+    display: flex;
+    margin: 3px 0 ;
+    background-color: white;
+}
+
+.order__img {
+    width: 100px;
+    height: 100px;
+}
+
+.order__row {
+    display: flex;
+    flex: 1;
+  
+}
+
+.order__name,
+.order__price,
+.order__status{
+    font-size: 1.5rem;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
